@@ -1,0 +1,290 @@
+
+@font-face{
+    font-family: "tekturts"; /** Nom de la police **/
+    src: url("../Fonts/tekturts.ttf");
+    src: url("../Fonts/Tekturv1.ttf" ) ; /** Chemin de stockage **/
+}
+
+
+
+@media ( max-width: 760px)
+
+{ footer ul 
+    {
+       text-align: center;
+
+
+    }
+}
+
+/*@media ( orientation: portrait)
+{ .buttonDiv .button
+    {
+        width: 50%;
+        height: 50%;
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+       
+        
+    }
+}*/
+
+@media ( max-width: 760px)
+{ .logo
+    {
+      size: 20%;
+        height: 20%;
+        width: 20%;
+    }
+}
+
+/*  cest de lameeeeeeeeeeeeeeeeeeeeeeeeeeeeerde!!!
+  .entete
+  font-size : 20px ;
+  background-position: columns: ;
+
+  @media screen and (max-width: 800px) and (orientation: portrait )
+
+{
+
+flex-direction: columns  ; 
+
+}
+}
+ @media screen and (max-width: 640px)
+@media screen and (orientation:portrait)
+   
+  
+   @media screen and (max-width: 640px)
+@media screen and (orientation:portrait)  
+
+Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px 
+@media screen and (max-width: 1280px) 
+
+
+@media all and (min-width: 1024px) and (max-width: 1280px){}
+ @media (max-width:768px) {
+      .wrapper .navbar .logo{
+        font-size: 20px;
+      }
+    
+
+
+@media all and (orientation: portrait)   
+{ display:hover
+
+}*/
+
+header{
+    background: rgb(201, 201, 201);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    white-space: nowrap;
+
+}
+ /*logo */
+
+.logo { 
+  width: 20%;
+}
+
+.entete { 
+  display :flex; 
+  flex-direction: column;
+  width: 80%;
+  font-family: "tekturts"; 
+    src: url("../Assets/Fonts/tekturts.ttf" ) ;
+    
+  /* text-align: center;
+  justify-content: space-between; */
+  /* box-shadow: rgb(0, 0, 0);
+  text-shadow: rgb(0, 0, 0); */
+
+  /*ente */
+}
+
+.enteteRow1{
+  width: 100%;
+  display :flex; 
+  flex-direction: row;
+  justify-content: end;
+}
+
+.enteteRow2{
+  width: 100%;
+  display :flex; 
+  flex-direction: row;
+  justify-content: center;
+}
+
+.enteteRow1 .buttonDiv{
+  margin-right: 10%;
+  padding: 5px;
+}
+
+.enteteRow2 .buttonDiv{
+  margin-right: 20%;
+  padding: 5px;
+  padding-top: 90px;
+}
+ /*les boutons */
+ 
+.button{
+  color: white;
+  background-color:rgb(253, 11, 11);
+  text-decoration: none;
+  font-size: 1em;
+  text-align: center;
+  border: 1px ;  
+  border-radius: 8px;
+  font: src= url('../assets/fonts/tekturts.ttf');
+  padding: 15px 32px;
+     
+  box-shadow: 12px 12px 2px 1px rgba(52, 52, 53, 0.2);
+}
+
+.buttonDivQuiFaitChier{
+  display: flex;
+  flex-direction: row-reverse;
+ justify-self:right
+}
+
+
+
+.buttonNews{
+  display: flex;
+  background-color: rgb(223, 223, 223);
+  color: black;
+  justify-content: end;
+     
+  box-shadow: 12px 12px 2px 1px rgba(52, 52, 53, 0.2);
+}
+
+   
+body{
+    font-family: "tekturts";
+    font: src= url('../Fonts/tekturts.ttf');
+    font-size: x-large;
+    background-color: rgb(128, 127, 127);  
+
+    
+}
+
+
+
+footer{
+    background: rgb(78, 78, 78);
+ }
+   
+
+
+.formules { 
+    display :flex;
+    background: rgb(241, 241, 241);
+    background-color: rgb(253, 11, 11);
+    text-align: center;
+    border:solid black 1px; 
+    border-radius: 8px;
+    color: rgb(253, 253, 253);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 12px 12px 2px 1px rgba(52, 52, 53, 0.2);
+    margin-top: 10%;
+ 
+}
+section.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  
+  
+}
+
+section.container .item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 1px 1px 12px rgb(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  font-family: "tekturts";
+  font: src= url('../Fonts/tekturts.ttf');
+  background-color: rgb(163, 163, 163);
+}
+
+section.container img, p, h2 {
+  padding: 5px;
+  width: 80%;
+margin: auto;
+}
+
+section.container p.price {
+  font-size: 20px;
+
+}
+
+.bandeau { 
+    display :flex;
+    background: rgb(255, 0, 0);
+    color: ghostwhite;
+    border: 3px ; 
+    box-shadow: 12px 12px 2px 1px rgba(52, 52, 53, 0.2);
+    text-align: center;
+    justify-content: center;
+    border-bottom : 3px solid rgb(128, 127, 127);
+    border:solid black 1px; 
+    border-radius: 8px;
+  
+}
+    
+
+.buttondebuter{
+  background-color: #f10d0d;
+  border: 3px; 
+  color: white;
+  border-color: black;
+  text-align: center;
+  border-radius: 8px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+#wtf {
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+a[target] {
+
+ color: #f10d0d;
+}
+
+p[class="text"] {
+
+  font-style: italic;
+}
+
+/*.button{
+    background-color: #f10d0d;
+    border: 1px; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+} /*
+ 
